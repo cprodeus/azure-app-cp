@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_cp</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/39d9713d-be3e-4092-a9dd-9eca27cefd2e/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-app-cp-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>30bca048-02b6-4d6b-8073-45d6e399f207</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
